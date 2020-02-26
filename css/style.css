@@ -1,0 +1,847 @@
+.imgBtn {
+	width: 28px;
+	height: 28px;
+	border-radius: 100%;
+	border: none;
+}
+.mgForBtn {
+	margin-bottom: 26px;
+}
+.imgBtn:hover {
+	filter: blur(1px);
+}
+.mainBtn {
+	position: relative;
+	background-color: transparent;
+	width: 208px;
+	height: 59px;
+	border: 2px solid #fc635e;
+	font-size: 24px;
+	margin-bottom: 25.4%;
+	border-radius: 7px;
+}
+.mainBtn:hover {
+	color: #fff;
+	background-color: #fc635e;
+}
+.headerBtn:after {
+	content: url(../img/mouse.png);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 12px;
+}
+.logoText {
+	font-size: 2.4rem;
+	font-weight: 700;
+	letter-spacing: -0.2px;
+	padding-left: 1.6rem;
+}
+.imgLogo {
+	width: 59px;
+}
+.menu {
+	margin-left: auto;
+	font-weight: 400;
+	line-height: 3.6rem;
+	letter-spacing: 0.64px;
+}
+.pdForM:hover {
+	color: #fc635e;
+}
+.pdForM:hover:before {
+	position: absolute;
+	content: "";
+	top: 100%;
+	height: 4px;
+	background-color: #fc635e;
+	width: 100%;
+	right: 0;
+}
+.pdForM {
+	position: relative;
+	margin-right: 40px;
+}
+.pdForM:last-of-type {
+	margin-right: 0px;
+}
+.colLogo {
+	flex-direction: column;
+}
+.before:after {
+	content: "";
+	left: calc(100% + 10px);
+	position: absolute;
+	width: 107px;
+	top: 206px;
+	height: 100%;
+	max-height: 8px;
+	background-color: #ffffff;
+	opacity: 0.2;
+}
+.before:before {
+	content: "";
+	right: calc(100% + 10px);
+	position: absolute;
+	width: 107px;
+	height: 100%;
+	top: 206px;
+	max-height: 8px;
+	background-color: #ffffff;
+	opacity: 0.2;
+}
+[id = "frstH1"]	{
+	position: relative;
+	padding-top: 21.5%;
+	padding-bottom: 35px;
+	color: #ffffff;
+	font-size: 5.1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.frstH1 {
+	color: #fc635e;
+}
+.frstLowText {
+	padding-bottom: 45px;
+	font-size: 2.4rem;
+}
+.headRow {
+	padding-top: 23px;
+}
+.gorLine {
+	width: 107px;
+	height: 8px;
+	opacity: 0.2;
+	display: flex;
+}
+.frstBg {
+	background: url(http://daicy.testsite.co.ua/images/Pic_1.png) no-repeat center/cover;
+}
+
+.secBg {
+	background: url(http://daicy.testsite.co.ua/images/Pic_2.png) no-repeat center/cover;	
+}
+.filterBg {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(19, 19, 19, 0.7);
+	padding: inherit;
+}
+[id = "frstH2"] {
+	margin-top: -5px;
+	font-size: 2.8rem;
+	color: #868686;
+	letter-spacing: -0.14px;
+	padding-top: 65px;
+	margin: auto;
+}
+hr {
+	height: 1px;
+	background-color: #adadad;
+	border: 0;
+	width: 25%;
+}
+.lowerText {
+	width: 100%;
+	margin: auto;
+	max-width: 505px;
+	font-size: 1.9rem;
+	line-height: 26px;
+	letter-spacing: -0.1px;
+	text-align: justify;
+}
+.img4 {
+	padding-top: 6.5%;
+	text-align: center;
+	padding-bottom: 4.3%;
+}
+.otherH {
+	color: #868686;
+	font-size: 2rem;
+	letter-spacing: -0.1px;
+	padding-top: 10px;
+}
+.text4 {
+	padding-top: 4px;
+}
+.frstL {
+	width: 100%;
+}
+.lineForSecBg {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+	width: 940px;
+	height: 384px;
+	border: 8px solid #ffffff;
+	opacity: 0.1;
+}
+.block3 {
+	max-width: 940px;
+	width: 100%;
+	height: 384px;
+	top: 233px;
+	z-index: 1;
+}
+.strangeBlock {
+	margin-top: 90px;
+	margin-bottom: 55px;
+}
+.mgsecBtn {
+	margin-bottom: auto;
+    margin-top: 56px;
+}
+[id = "secH1"] {
+	color: #ffffff;
+	font-size: 5.1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: -0.26px;
+}
+.moreBtn {
+	width: 167px;
+	height: 44px;
+	background-color: #fc635e;
+	color: #f2f2f2;
+	border: 2px solid #fc635e;
+	border-radius: 7px;
+	margin-top: 33px;
+
+	font-size: 2rem;
+	font-weight: 300;
+}
+.moreBtn:hover {
+	background-color: #f2f2f2;
+	color: #fc635e;
+}
+.mainText {
+	color: #9e9898;
+	line-height: 2.4rem;
+	letter-spacing: 0.23px;
+}
+.heading {
+	color: #868686;
+	font-size: 2.8rem;
+	line-height: 2.6rem;
+	padding-left: 13px;
+}
+.sameBlock1 {
+	margin-top: 5.3%;
+}
+.timer {
+	height: 835px;
+}
+.padSameBlock {
+    padding-top: 30px;
+	padding-right: 9px;
+}
+.padSame {
+	padding-right: 0;
+	padding-left: 0;
+}
+.sameBlock2 {
+	margin-top: 11.6%;
+}
+.padSame2Block {
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-right: 17px;
+	text-align: right;
+}
+.sameBlock3 {
+	margin-top: 15px;
+}
+.padSame3 {
+	padding-right: 0px;
+	padding-top: 10.2%;
+	padding-bottom: 4.7%;
+}
+.padSameBlock3 {
+	padding-right: 10px;
+	padding-left: 0;
+	padding-top: 22px;
+}
+.portfolio {
+	color: #868686;
+	font-size: 2.8rem;
+	padding-top: 7%;
+}
+.portfolioMenu {
+	justify-content: space-around;
+	border-top: 1px solid #adadad;
+	border-bottom: 1px solid #adadad;
+	color: #adadad;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 2rem;
+	margin-top: 40px;
+	margin-bottom: 46px;
+	text-transform: uppercase;
+}
+.portfolioMenu > div {
+	color: #fc635e;
+}
+.obj {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+
+}
+.imgButton {
+	margin-top: 4.5%;
+	width: 200px;
+	padding-bottom: 13px;
+	padding-top: 12px;
+	border: 2px solid #fc635e;
+	border-radius: 7px;
+	background-color: #fc635e;
+	color: #ffffff;
+	font-size: 2rem;
+}
+.imgButton:hover {
+	background-color: #ffffff;
+	color: #fc635e;
+}
+.row1H {
+	height: 200px;
+}
+.row2H {
+	height: 196px;
+}
+.box {
+	position: relative;
+}
+.box .content {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	opacity: 0;
+}
+.box:hover .content {
+	opacity: 1;
+}
+.box .content h2,
+.box .content p {
+	padding: 10px;
+	font-size: 2.8rem;
+}
+.plussImg {
+	width: 45px;
+	height: 45px;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-right: auto;
+}
+.content  {
+	background-color: rgba(252, 99, 94, 0.78);
+	width: 100%;
+	height: 100%;
+	padding: 25px;
+}
+.menuIcon:hover {
+	filter: brightness(50%);
+}
+.makeLine {
+	padding-bottom: 12px;
+	border-bottom: 1px solid #adadad
+}
+.padFor3Person {
+	padding-top: 25px;
+	padding-bottom: 12px;
+}
+.paddforIcon {
+	padding-bottom: 13px;
+}
+.lowerTextIcon {
+	font-size: 2rem;
+}
+.last6angle {
+	height: 200px;
+	display: flex
+	background: url(http://daicy.testsite.co.ua/images/2-layers.png);
+}
+.nall {
+	content: "";
+}
+.bg-map {
+	background: url(http://daicy.testsite.co.ua/images/map.png) no-repeat center/cover;
+	height: 338px;
+}
+.bg-footer {
+	background: url(http://daicy.testsite.co.ua/images/pic_bottom.png) no-repeat center/cover;
+	height: 253px;
+}
+.filter-foot {
+	background-color: rgba(35, 35, 35, 0.74);
+	height: 253px;
+}
+.low-logo {
+	padding-left: 20px;
+	font-size: 3.2rem;
+	font-weight: 700;
+}
+.circleImg {
+	margin-bottom: 15px;
+}
+.circleImg2 {
+	margin-bottom: 20px; z-index: 1;	
+}
+.circleImg3 {
+	margin-top: 36px;
+	margin-bottom: 20px;
+}
+.block4 {
+	margin-top: 50px;
+}
+.block4text {
+	padding-top: 15px;
+	padding-bottom: 55px;
+}
+.padSameTitle1 {
+	padding-bottom: 15px;
+}
+.padSameTitle1 > {
+	padding-left: 8px;
+}
+.padSameTitle2 {
+	padding-bottom: 15px;
+}
+.padSameTitle2 > h3 {
+	padding-right: 10px;
+}
+.padSameTitle3 {
+	padding-bottom: 12px;
+}
+.padSameTitle3 > h3 {
+	padding-left: 8px;
+}
+.vertLineSame {
+	width:10px;
+	height: 39px;
+}
+.frstSameBtn {
+	margin-top: 40px;
+	padding-bottom: 18px;
+}
+.moreBtn2 {
+	padding-right: 9px;
+}
+.sameBlock2 ~ img {
+	margin-top: 8.5%;
+}
+.sameBlock3 ~ div {
+	margin-top: 13px;
+	padding-bottom: 15px;
+}
+.padSameBlock3 ~ div {
+	padding-right: 8px;
+	padding-left: 0px;
+}
+.mg2px {
+	margin-top: 2px;
+}
+.btnInImg {
+	margin-top: 24px;
+	margin-bottom: 15px;
+}
+.rowOur {
+	padding-top: 4.5%;
+	padding-bottom: 6.5%;
+}
+.rowOur2 {
+	margin-left: -55px;
+}
+.lineOur {
+	border-bottom: 1px solid #757575;
+	padding-bottom: 10px;
+}
+.lastImgBtn {
+	margin-top: 5%;
+	padding-bottom: 13px;
+}
+.secIcon {
+	margin-right: 19px;
+	margin-left: 17px;
+}
+.arrowsCol > div {
+	width:26px;
+	height: 26px;
+}
+.imgOnTheMap {
+	top: -124px;
+}
+.titleOnTheMap {
+	top: -42px;
+	font-size: 2.7rem;
+}
+.textOnTheMap {
+	width: 162px;
+	text-align: justify;
+	top: 0px;
+}
+.process { 
+	width: 785px;
+	height: 550px;
+	margin: 0 auto;
+}
+.step {
+	position: absolute;
+	width: 175px;
+	text-align: center; 
+}
+.step_content { 
+	height: 100px;
+	padding: 0 14px;
+	border-right: 1px solid #adadad;
+	border-left: 1px solid #adadad; 
+}
+.step:after, .step:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-right: 1px solid #adadad;
+	border-left: 1px solid #adadad;
+}
+.step:after {
+	transform: rotate(-60deg);
+}
+.step:before {
+	transform: rotate(60deg);
+}
+.step-one {
+	top: 150px;
+	left: 0;
+}
+.step-three {
+	top: 50px;
+	left: 352px;
+}
+.step-two {
+	top: 201px;
+	left: 265px;
+}
+.step-one:before {
+	border-left: 4px solid rgba(252, 99, 94, 0.97);
+}
+.step-two:before, .step-two .step_content {
+	border-left: 4px solid rgba(252, 99, 94, 0.97);
+}
+.step-three:before, .step-three .step_content {
+	border-left: 4px solid rgba(252, 99, 94, 0.97);
+}
+.step-four:before {
+	border-left: 4px solid rgba(252, 99, 94, 0.97);
+}
+.step-three:after, .step-three .step_content {
+	border-right: 4px solid rgba(252, 99, 94, 0.97);
+}
+.step-one:after, .step-one .step_content {
+	border-right: 4px solid rgba(252, 99, 94, 0.97);
+}
+.step-four:after, .step-four .step_content, .step-four:before {
+	border-right: 4px solid rgba(252, 99, 94, 0.97);
+}
+.step-four {
+	top: 150px;
+	left: 525px;
+	width: 260px;
+}
+.step-four .step_content {
+	height: 150px;
+}
+.step-img {
+	top: 324px;
+	left: 45px;
+	width: 260px;
+}
+.step-img .step_content {
+	height: 150px;
+	background: url(../img/people.png) no-repeat left center;
+}
+.step-img .bg-1, .step-img .bg-2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: inherit;
+}
+.step-img .bg-1:after, .step-img .bg-2:after {
+	content: "";
+	position: absolute;
+	top: -50%;
+	left: 0;
+	width: 100%;
+	height: 200%;
+	background: inherit;
+}
+.step-img .bg-1 {
+	transform: rotate(60deg);
+}
+.step-img .bg-1:after {
+	transform: rotate(-60deg);
+}
+.step-img .bg-2 {
+	transform: rotate(-60deg);
+}
+.step-img .bg-2:after {
+	transform: rotate(60deg);
+}
+.step-img .line {
+	z-index: 1;
+	position: absolute;
+	top: -50px;
+	left: 119px;
+	width: 112px;
+	border-top: 4px solid rgba(252, 99, 94, 0.97);
+	transform: rotate(30deg);
+}
+.step_title {
+	display: inline-block;
+	margin: -8px 0 10px;
+	font: 500 24px/26px Arial, sans-serif;
+	text-transform: uppercase;
+	color: #868686;
+	border-bottom: 1px solid #adadad;
+}
+.wrap-ic {
+	top: -17px;
+	left: -17px;
+	width: 38px;
+	height: 38px;
+	line-height: 30px;
+	border: 3px solid #fc635e;
+	background-color: #fc635e;
+	border-radius: 50%;
+}
+.wrap-ic-bottom {
+	top: auto;
+	left: 50%;
+	bottom: -90px;
+	z-index: 1;
+	margin-left: -17px;
+	background: #FFF;
+}
+.biogrphy {
+	height: 372px;
+}
+.bio {
+	left: 170px;
+	top: 210px;
+}
+.leftText {
+	width: 319px;
+	text-align: justify;
+	letter-spacing: -0.8px;
+}
+.imgForLText {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+.flower {
+	padding-top: 15px;
+}
+.comma {
+	margin-top: 50px;
+}
+.arrows {
+	margin-top: 74px;
+}
+.arrowsCol {
+	margin-bottom: 165px;
+}
+.mediaPadd {
+	padding: 0 10px;
+}
+
+@media(max-width: 1278px) {
+	.bio {
+		display: contents;
+	}
+	.bio > div {
+		flex-direction: column;
+	}
+	.leftText {
+		width: 50%;
+	}
+	.flower {
+		text-align: center;
+	}
+	.biogrphy {
+	    height: 470px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.lineForSecBg  {
+		width: 90%;
+	}
+	.before:before, .before:after {
+		display: none;
+	}
+}
+
+@media (max-width: 900px) {
+	.padSame, .padSame3{
+		flex-direction: column-reverse;
+	}
+	.imgsForMedia {
+		display: flex;
+		margin: auto;
+		width: 80%;
+	}
+}
+
+@media (max-width: 850px) {
+	.step-one {
+		top: 39px;
+		left: 0;
+		right: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.step-two {
+		top: 240px;
+		left: 0;
+		right: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.step-three {
+		top: 440px;
+		left: 0;
+		right: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.step-four {
+		top: 665px;
+		left: 0;
+		right: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.step-img {
+		top: 958px;
+		left: 0;
+		right: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.process {
+		height: 1165px;
+	}
+
+	.step-one:before {
+		border-left: 1px solid #adadad;
+	}
+	.step-one:after, .step-one  .step_content {
+		border-right: 1px solid #adadad;
+	}
+	.step-two:before, .step-two .step_content {
+		border-left: 1px solid #adadad;
+	}
+	.step-three:after, .step-three .step_content {
+		border-right: 1px solid #adadad;
+	}
+	.step-three:before, .step-three .step_content {
+		border-left: 1px solid #adadad;
+	}
+	.step-four:after, .step-four .step_content, .step-four:before {
+		border-right: 1px solid #adadad;
+	}
+	.step-four:before {
+		border-left: 1px solid #adadad;
+	}
+	.step-img .line {
+		display: none;
+	}
+}
+
+@media (max-width: 800px) {
+	.before {
+		flex-direction: column;
+		text-align: center;
+	}
+	.secH1 {
+		flex-direction: column;
+		text-align: center;
+	}
+	.mediaPadd {
+		padding: 35px 0;
+	}
+	.block3 {
+		top: 165px;
+	}
+	.col-6 {
+		margin-top: 2px;
+		width: 100%;
+	}
+	.pickforMedia {
+		flex-direction: column;
+	}
+	.menu {
+		display: block;
+	}
+	.pdForM {
+		margin-right: 0;
+		text-align: right;
+	}
+	.rowOur2child {
+		flex-direction: column;
+	}
+	.rowOur2 {
+		margin: auto;
+	}
+	.centerMan {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 700px) {
+	.block3 {
+		text-align: center;
+	}
+}
+
+@media (max-width: 600px) {
+	.lowerText {
+		width: 90%;
+	}
+	.img4 {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.text4 {
+		padding-left: 3px;
+		padding-right: 3px;
+		width: 100%;
+		max-width: 200px;
+	}
+	.portfolioMenu {
+		flex-wrap: wrap;
+	}
+	.headerBtn:after  {
+		display: none;
+	}
+}
+
+@media (max-width: 420px) {
+	[id = "frstH2"] {
+		text-align: center;
+	}
+}

@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap");
+
+*, :before, :after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-size: 1.5rem;
+	line-height: 2.1rem;
+	font-weight: 300;
+	font-family: "PF Encore Sans Pro", sans-serif;
+}
+
+body, p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.col-6 {
+	padding: 0px;
+	width: 50%;
+}
+
+.flex {
+	display: flex;
+}
+
+.row {
+	display: flex;
+	margin: 0 -15px;
+}
+
+.col {
+	padding: 0 15px;
+	max-width: 970px;
+	width: 100%;
+}
+
+.container {
+	padding: 0 3.96%;
+	max-width: 1280px;
+	margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-size: 2.8rem;
+	font-weight: 500;
+	margin: 0;
+}
+
+.bg-c-main {
+	background-color: #ffffff;
+}
+
+.bg-c-other {
+	background-color: #f2f2f2;
+}
+
+.c-main {
+	color: #767676;
+}
+
+.c-rainbow {
+	color: #868686;
+}
+
+.c-da {
+	color: #adadad;
+}
+
+.c-lower {
+	color: #565656;
+}
+
+.c-for-btn {
+	color: #ffffff;
+}
+
+.c-cute {
+	color: #fc635e;
+}
+
+.c-9f {
+	color: #9f9f9f;
+}
+
+.ai {
+	align-items: center;
+}
+
+.jc {
+	justify-content: center;
+}
+
+.jc-around {
+	justify-content: space-around;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-row-r {
+	flex-direction: row-reverse;
+}
+
+.flex-column-r {
+	flex-direction: column-reverse;
+}
+
+.flex-column {
+	flex-direction: column;	
+}
+
+.mgc {
+	margin: auto;
+}
+
+.t-left {
+	text-align: left;
+}
+
+.pos {
+	position: relative;
+}
+
+.display-block {
+	display: block;
+}
+
+.mg-l {
+	margin-left: auto;
+}
+
+.zeroPad {
+	padding: 0;
+}
+
+.pos-a {
+	position: absolute;
+}
+
+.ta-left {
+	text-align: left;
+}
